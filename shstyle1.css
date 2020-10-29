@@ -70,7 +70,7 @@ input[id="menuicon"]{
 }
 input[id="menuicon"]+label{
     display: block;
-    width: 40px;
+    width: 32px;
     height: 25px;
     position: relative;
     cursor: pointer;
