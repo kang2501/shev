@@ -15,7 +15,7 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   color:#7D140A;
-  font-size: 87px;
+  font-size: 9vw;
   
   
   position: absolute;
@@ -26,7 +26,7 @@ img {vertical-align: middle;}
 }
 .textcont{
   width: 100%;
-    font-size: 47px;
+    font-size: 5vw;
     color: #7D140A;
     bottom: -200%;
     left: 0%;
@@ -75,7 +75,10 @@ img {vertical-align: middle;}
   from {opacity: .1} 
   to {opacity: 1}
 }
-@media(min-width: 1000px) {
+
+
+/*
+@media all and (min-width: 1024px) {
     .text {font-size: 117px}
     .textcont{
         font-size: 82px;
@@ -91,3 +94,4 @@ img {vertical-align: middle;}
     
     }
 }
+*/
