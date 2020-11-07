@@ -1,0 +1,61 @@
+.wrapbutton {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttontema {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(199, 23, 23);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .buttontema:hover {
+    background-color: #f70b0b;
+    box-shadow: 0px 15px 20px rgba(168, 19, 8, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+.buttoncall {
+	
+	text-align: center;
+}
+
+.buttoncall>a {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: 20px auto;
+	max-width: 180px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 20px 30px;
+}
+
+a.buttoncall {
+	color: rgba(12, 12, 12, 1);
+	box-shadow: rgba(236, 5, 5, 0.849) 0 0px 0px 2px inset;
+}
+
+a.buttoncall:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(241, 3, 3, 0.925) 0 0px 0px 40px inset;
+}
+
