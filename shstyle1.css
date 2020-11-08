@@ -36,6 +36,9 @@ a:hover { color: red; text-decoration: underline;}
 .contsize{
     font-size: calc(1.7vw + 10.58px);
 }
+.contsize2{
+    font-size: calc(2.7vw + 11px);
+}
 footer{
     text-align: center;
     background-color: #f5f5f7;
@@ -167,3 +170,14 @@ div[class="slidebar"] div{
     text-align: center;
     margin-top: 30%;
 }
+.photo1{
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    }
+.photo2{
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    display: inline-block;
+ }
