@@ -1,0 +1,9 @@
+.box{ position:relative;} 
+.box:hover .left_top{height:100%;} 
+.box:hover .right_top{width:100%;} 
+.box:hover .right_bottom{height:100%;} 
+.box:hover .left_bottom{width:100%;} 
+.left_top{ position:absolute; left:0; top:0; width:5px; height:0; transition:1s all; background:rgb(0, 204, 255); }
+ .right_top{ position:absolute; right:0; top:0; width:0; height:5px; transition:1s all; background:rgb(0, 204, 255); } 
+ .right_bottom{ position:absolute; right:0; bottom:0; width:5px; height:0; transition:1s all; background:rgb(0, 204, 255); } 
+ .left_bottom{ position:absolute; left:0; bottom:0; width:0px; height:5px; transition:1s all; background:rgb(0, 204, 255); }

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="fadein.css">
     <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="beforeafter.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="texteffect.css">
     <script src="https://code.jquery.com/jquery-latest.js"></script> 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -47,26 +49,23 @@
                         <a href="ceo.html"><span>CEO</span></a>
                     </li>
                     <li class="sidecontent">
-                        <span>연혁</span>
+                        <a href="business.html"><span>사업영역</span></a>
                     </li>
                     <li class="sidecontent">
-                        <span>사업영역</span>
+                        <a href="product.html"><span>제품</span></a>
                     </li>
                     <li class="sidecontent">
-                        <a style="list-style-type: none;" href="h2-2.html"><span>제품</span></a>
-                    </li>
-                    <li class="sidecontent">
-                        <span>겔러리</span>
+                        <a href="gallery.html"><span>겔러리</span></a>
                     </li>
                     
                     <li class="sidecontent">
-                        <span>비전</span>
+                        <a href="dream.html"><span>비전</span></a>
                     </li>
                     <li class="sidecontent">
                         <a href="road.html"><span>오시는길</span></a>
                     </li>
                     <li class="sidecontent">
-                        <span>서비스</span>
+                        <a href="service.html"><span>고객서비스</span></a>
                     </li>
                     <div>
                         <a href="index.html" style="text-decoration: none;">HOME</a>
@@ -80,7 +79,7 @@
       
     </nav>
     <div class="banerbox">
-    </div> 
+    </div>
     <div class="slideshow-container">
 
         <div class="mySlides fade">
@@ -131,9 +130,15 @@
     <div class="buttoncall">
         <a href="tel:01085554094" class="buttoncall">CONTACT!</a>
     </div>
+    
     <br>
 </div>
-<div class="container">
+<div class="container box">
+    <span class="left_top"></span> 
+    <span class="right_top"></span> 
+    <span class="right_bottom"></span> 
+    <span class="left_bottom"></span>
+
     <div class="fadeinleft" style="width: 100%; text-align:center;">   
         <img src="img/k1.jpg" style="width: 67%; margin: 10px auto;">
     </div>
@@ -141,7 +146,7 @@
         <h1 class="titlesize" style="color:blue;text-align:center;">WHY SHEV?</h1>
        <!-- <h1 class="subtitlesize" style="color:#0066cc; text-align:center;">왜 신한에볼루션인가?</h1>-->
     </div>
-    <div style="padding-left: 15px; padding-right:15px;">
+    <div style="padding-left: 15px; padding-right:15px; padding-top:7px; padding-bottom:7px;">
     <div class="fadeinleft">
         <br>   
         <h2 class="contsize"> 모든 MODEL 취급하는 유도 최고의 엔지니어 대표</h2>
@@ -182,11 +187,11 @@
             <figcaption>After</figcaption>
         </figure>
     </div>
-    <div class="fadeinleft">
-        <br>   
+    <p class="plusspace" style="font-size: 10px; text-align:right; color:white">*양옆으로slide해보세요.</p>
+    <div>
         <h2 class="contsize" style="text-align: center;"> 중고ROBOT ALL수리로 신품같은 A/S</h2>
     </div>
-    <div class="fadeinleft">
+    <div>
         <br>   
         <h2 class="contsize" style="text-align: center;"> 수리,설치,개조 최적의 생산SETTING</h2>
     </div>
@@ -216,51 +221,12 @@
         <p class="plusspace" style="font-size: 10px; text-align:right;">*전부 직접 설치한 ROBOT 입니다.</p>
     </div>
 </div>
-<div>  
-    <h1>이부분은 새 로봇설치 머싯는 사진들? </h1>
-    <h2>장점?본사와 대리점의 서비스를 함께 받을수 있음</h2>
-    신뢰,관계 등등등?   
-    <div class="fadeinleft">
-        <h1>CEO</h1>
-        <p>최고의 기술력</p>
-    </div>
-    <div class="fadeinleft">    
-        <img src="img/k2.jpg" style="width: 60%; margin: 5px auto">
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit ad asperiores voluptatibus quos veritatis, tempora enim inventore neque voluptatem. Consequuntur qui in non perferendis. Iusto atque dolor quisquam natus.</h2>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <div class="fadeinleft">
-        <h1>CEO</h1>
-        <p>최고의 기술력</p>
-    </div>
-    <div class="fadeinleft">    
-        <img src="img/k1.jpg" style="width: 60%; margin: 5px auto">
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptas sunt tempore nesciunt deleniti amet, saepe modi id minus labore architecto inventore eligendi magni accusamus iusto suscipit nulla perferendis vel!</h2>
-        <br>
-        <br>
-        <br>
-    </div>
-    <div class="fadeinleft">
-        <h1>CEO</h1>
-        <p>최고의 기술력</p>
-    </div>
-    <div class="fadeinleft">    
-        <img src="img/k3.jpg" style="width: 60%; margin:5px auto">
-        <br>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus id odit sed reiciendis qui assumenda doloremque sequi, ab autem? Harum aliquam corrupti ea iusto, odit rem! Cum modi eum ipsam.</p>
-        <br>
-        <br>
-    </div>
-    
+<div id="fly-in" class="movi">  
+    <div><span>신한에볼루션</span>YUDO</div>
+    <div>BEST<span>ENGINEER</span></div>
+    <div>28년 경력의 <span> 노하우</span></div>
+    <div>단종된MODEL까지 가능한<span>유일 회사</span></div>
 </div>
-<div>
-    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque laboriosam ut recusandae accusamus, odio odit sint molestiae minus, cum dolorum vero? Cumque adipisci odit aliquid explicabo vitae ipsa ducimus ad?</h2>
-</div>
-
 <script src="fadein.js"></script>
 <div id="map" style="width:365px;height:400px;margin:auto;">
 </div>
@@ -294,6 +260,12 @@
 
 <div style="text-align: center;">
     <a href="http://pf.kakao.com/_xmWbCK"><img style="width: 100px;" src="img/kakaoic.jpg" alt="kakaochat"></a>
+</div>
+<div id="fly-in" class="movi">  
+    <div><span>신한에볼루션</span>YUDO</div>
+    <div>BEST<span>ENGINEER</span></div>
+    <div>28년 경력의 <span> 노하우</span></div>
+    <div>단종된MODEL까지 가능한<span>유일 회사</span></div>
 </div>
 <footer>
     <a href="index.html" style="text-decoration: none;"><p><span style="color: red;">YUDO</span>&<span style="color: darkgrey;">SHEV</span></p></a>

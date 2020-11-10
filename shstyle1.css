@@ -24,7 +24,7 @@ a:hover { color: red; text-decoration: underline;}
     color: #f5f5f7;
 }
 .start{
-    font-size: calc(2vw + 12.58px);
+    font-size: calc(1.2vw + 11.58px);
     color: #fbfbfb;
 }
 .titlesize{

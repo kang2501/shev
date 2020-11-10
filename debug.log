@@ -4,3 +4,6 @@
 [1108/140001.909:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
 [1108/152939.003:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
 [1108/232015.793:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1110/132440.913:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\samsung user\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\b0e616ff-9a8f-46c3-9f8a-160703e92c74: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1110/133126.990:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1110/143846.487:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)

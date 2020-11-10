@@ -1,6 +1,5 @@
 .ceobox{
     width: 100%;
-    font-size: 37px;
     color: #1d1d1f;
     position: relative;
     
@@ -13,30 +12,10 @@
     
 }
 .ceotext{
-    font-size: 37px;
+    font-size: calc(3vw + 7.58px);
     color: #1d1d1f;
     position: absolute;
-    left: 50%;
-    top: 17%;
-}
-
-@media(min-width: 1150px) {
-    .ceotext{
-        font-size: 52px;
-        color: #1d1d1f;
-        position: absolute;
-        left: 50%;
-        top: 17%;
-    
-    }
-}
-@media(max-width: 770px) {
-    .ceotext{
-        font-size: 17px;
-        color: #1d1d1f;
-        position: absolute;
-        left: 50%;
-        top: 17%;
-    
-    }
+    left: 47%;
+    top: 7%;
+    font-weight: bold;
 }
