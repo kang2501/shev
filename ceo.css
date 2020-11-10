@@ -14,7 +14,7 @@
 .ceotext{
     font-size: calc(3vw + 5.78px);
     color: #1d1d1f;
-    position: absolute;
+    position: relative;
     left: 37%;
     top: 10%;
     font-weight: bold;
