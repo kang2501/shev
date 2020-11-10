@@ -6,5 +6,5 @@ ul{list-style:none;}
   
 }
 .typing ul li.on {  
-  display: inline-block;
+  display: block;
 }
