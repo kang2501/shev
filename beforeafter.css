@@ -1,10 +1,11 @@
 .comparison-slider {
     position: relative;
-    width: 80%;
+    width: 87%;
     margin: auto;
     user-select: none;
     overflow: hidden;
     touch-action: pan-x;
+    max-width: 960px;
 }
 
 .comparison-slider > figure:last-of-type {
