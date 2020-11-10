@@ -1,21 +1,16 @@
 .ceobox{
     width: 100%;
     color: #1d1d1f;
-    position: relative;
-    
-    
-
+    height: 40vw;
+    font-size: calc(3vw + 5.78px);
+    color: #1d1d1f;
+    font-weight: bold;
 }
 
 .ceoimg{
-    width: 35%;
+    width: 40%;
+    position: absolute;
+    right: 0%;
+    top: 45px;
     
-}
-.ceotext{
-    font-size: calc(3vw + 5.78px);
-    color: #1d1d1f;
-    position: relative;
-    left: 37%;
-    top: 10%;
-    font-weight: bold;
 }
