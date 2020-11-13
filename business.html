@@ -23,16 +23,10 @@
     <meta name="naver-site-verification" content="e9307118d5a7bb46703c53442c90348e7c69c8a8" />
 </head>
 <body>
-    <script type="text/javascript">
-        window.onload = function(){
-            var browse = navigator.userAgent.toLowerCase(); 
-                
-            if( (navigator.appName == 'Netscape' && browse.indexOf('trident') != -1) || (browse.indexOf("msie") != -1)) {
-                 alert("본 사이트는 크롬버전에 최적화되어있습니다.");
-            }
-         
-        };
-        </script>
+    <div class="ring">Loading
+        <span></span>
+    </div>
+    <script src="loading.js"></script>
    <nav id="box" class="firstbox">
         <ul style="list-style-type: none;" class="firstbaner">
             <li class="banercont">
@@ -83,12 +77,12 @@
     <div class="banerbox">
     </div>
 <div style="background-color: gray;">    
-<video class="center" src="img/v1.mp4" width="100%" autoplay poster="img/k8.jpg" muted loop>작동영상</video>    
+<video class="center" src="img/v1.mp4" width="100%" controls autoplay poster="img/k8.jpg" muted loop>작동영상</video>    
 </div>
-<div style="text-align: center;">
+<div id="bg" style="text-align: center;">
     <h1  class="plusspace">ALL A/S 작동영상</h1>
 </div>
-<div id="bg">
+<div>
     <div class="wrapperb">
         <h1 class="bsize">SHEV PRODUCT</h1>
         <div class="cols">
@@ -141,6 +135,29 @@
        </div>
 </div>
 <script src="changeback.js"></script>
+<div class="startcolor">
+    <h2 style="font-size: calc(1.7vw + 7.58px);">중고ROBOT ALL OVERHAUL A/S</h2>
+    <div class="comparison-slider">
+        <figure>
+            <img src="img/k5.jpg" alt="before" />
+            <figcaption>Before</figcaption>
+        </figure>
+        <figure>
+            <img src="img/k8.jpg" alt="after" />
+            <figcaption>After</figcaption>
+        </figure>
+    </div>
+    <p class="plusspace" style="font-size: 15px; text-align:right; color:white">*양옆으로slide해보세요.*</p>
+    <div>
+        <h2 class="contsize" style="text-align: center;"> 중고ROBOT ALL수리로 신품같은 A/S</h2>
+    </div>
+    <div>
+        <br>   
+        <h2 class="contsize" style="text-align: center;"> 수리,설치,개조 최적의 생산SETTING</h2>
+    </div>
+    <br>
+    <script src="beforeafter.js"></script>
+</div>
 <footer>
     <a href="index.html" style="text-decoration: none;"><p><span style="color: red;">YUDO</span>&<span style="color: darkgrey;">SHEV</span></p></a>
        <p>copyright (주)신한에볼루션. All right reserved.</p>
