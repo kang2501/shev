@@ -45,7 +45,6 @@ footer{
     font-size: 11px;
     color: #1d1d1f;
     align-items: flex-end;
-    
     border-top: gray 1px solid;
 }
 footer>a:hover{
