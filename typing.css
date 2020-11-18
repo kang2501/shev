@@ -2,6 +2,7 @@
 ul{list-style:none;}
 .typing ul li{
   display:block;
+  padding-left: 3%;
 
   
 }

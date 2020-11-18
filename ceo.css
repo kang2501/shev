@@ -5,6 +5,10 @@
     font-size: calc(3vw + 5.78px);
     color: #1d1d1f;
     font-weight: bold;
+    border-bottom: 7px solid rgb(228, 11, 11);
+    
+    
+    
 }
 
 .ceoimg{
