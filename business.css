@@ -112,7 +112,7 @@
       -webkit-perspective: inherit;
               perspective: inherit;
       z-index: 2;
-      -webkit-backface-visibility:hidden;
+      transform-style: preserve-3d;
   }
   
   .container .back{
