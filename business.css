@@ -1,5 +1,4 @@
--webkit-transform-style: preserve-3d;
--webkit-transform: translateZ(-5px);
+
 
 .center{
     margin: auto;
@@ -113,6 +112,7 @@
       -webkit-perspective: inherit;
               perspective: inherit;
       z-index: 2;
+      -webkit-backface-visibility:hidden;
   }
   
   .container .back{
