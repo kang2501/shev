@@ -1,3 +1,6 @@
+-webkit-transform-style: preserve-3d;
+-webkit-transform: translateZ(-5px);
+
 .center{
     margin: auto;
     max-width: 1007px;
@@ -183,3 +186,4 @@
       margin: 0 0 2rem 0;
     }
   }
+
